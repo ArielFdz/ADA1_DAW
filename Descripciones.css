@@ -84,3 +84,8 @@ footer{
     margin-right: auto;
     opacity: 0.6;
 }
+
+.apartados a{
+    text-decoration: none;
+    color: white;
+}
