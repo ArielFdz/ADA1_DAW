@@ -62,7 +62,7 @@ main{
     display: flex;
 }
 
-.portada7{
+.portada7 a{
     width: 95px;
     display: flex;
     flex-flow: row wrap;
