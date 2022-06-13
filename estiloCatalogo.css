@@ -53,12 +53,20 @@ main{
     padding-bottom: 4px;
 }
 
+.cuadro1 img{
+    border: 1px solid green;
+}
+
 .cuadro2{
     padding-left: 8px;
     padding-right: 8px;
     display: flex;
     align-items: center;
     padding-bottom: 4px; 
+}
+
+.cuadro2 img{
+    border: 1px solid green;
 }
 
 .cuadro3{
@@ -69,12 +77,20 @@ main{
     padding-bottom: 4px; 
 }
 
+.cuadro3 img{
+    border: 1px solid green;
+}
+
 .cuadro4{
     padding-left: 8px;
     padding-right: 8px;
     display: flex;
     align-items: center;
     padding-bottom: 4px; 
+}
+
+.cuadro4 img{
+    border: 1px solid green;
 }
 
 .cuadro5{
@@ -85,12 +101,20 @@ main{
     padding-bottom: 4px;  
 }
 
+.cuadro5 img{
+    border: 1px solid green;
+}
+
 .cuadro6{
     padding-left: 8px;
     padding-right: 8px;
     display: flex;
     align-items: center;
     padding-bottom: 80px; 
+}
+
+.cuadro6 img{
+    border: 1px solid green;
 }
 
 .datosFlores{
