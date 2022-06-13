@@ -1,0 +1,127 @@
+/*Diseño universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Diseño body*/
+
+body{
+    width: 100%;
+    background-color: #F5DF99;
+}
+
+/*Diseño Header*/
+
+header{
+    height: 120px;
+    display: flex;
+    width: 100%;
+    background-color: #F6FBF4 ;
+    color: green;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logotipo{
+    display: flex;
+    align-items: baseline;
+}
+
+.logotipo img{
+    margin-right: 10px;
+}
+
+/*Diseño main*/
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroCompleto{
+    background-color: white;
+}
+
+.cuadro1{
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.cuadro2{
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px; 
+}
+
+.cuadro3{
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px; 
+}
+
+.cuadro4{
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px; 
+}
+
+.cuadro5{
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;  
+}
+
+.cuadro6{
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px; 
+}
+
+.datosFlores{
+    color: green;
+    width: 180px;
+}
+
+/*Diseño footer*/
+
+footer{
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    background: #4B8673;
+    font-family: 'Poppins', sans-serif;
+}
+
+.apartados{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.barraImagen{
+    background-color:black ;
+}
+
+.barraImagen img{
+    display: block;
+    margin-left: auto;
+    opacity: 0.6;
+}
