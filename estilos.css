@@ -1,3 +1,103 @@
-body{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    background-color: white;
+}
+
+/*Diseño Header*/
+
+header{
+    height: 130px;
+    display: flex;
+    width: 100%;
+    background-color:#F5DF99 ;
+    color: green;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+}
+
+.cabecera img{
+    width: 120px;
+    height: 107px;
+}
+
+
+/*Diseño main*/
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.categorias{
+    display: flex;
+    background-color: green;
+    width: 375px;
+}
+
+.categorias p{
+    color: white;
+    width: 125px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.primeraParte{
+    display: flex;
+}
+
+.segundaParte{
+    display: flex;
+}
+
+.portada7{
+    width: 95px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.terceraParte{
+    display: flex;
+}
+
+
+/*Diseño footer*/
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #4B8673;
+    font-family: 'Poppins', sans-serif;
+}
+
+.apartados{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.barraImagen{
+    background-color:black ;
+}
+
+.barraImagen img{
+    display: block;
+    margin-left: auto;
+    opacity: 0.6;
+}
+
