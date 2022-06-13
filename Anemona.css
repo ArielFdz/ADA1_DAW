@@ -42,10 +42,18 @@ main{
 }
 
 .textoInformacion p{
-    padding-top: 35px;
+    padding-bottom: 18px;
     padding-left: 25px;
     padding-right: 25px;
     font-size: x-large;
+    text-align:justify;
+}
+
+.textoInformacion h2{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align:justify;
 }
 
@@ -58,21 +66,6 @@ footer{
     width: 100%;
     background: #4B8673;
     font-family: 'Poppins', sans-serif;
-}
-
-.tituloFooter{
-    padding-top: 15px;
-    padding-bottom: 8px;
-    padding-left: 20px;
-    
-}
-
-.contenidoFooter{
-    padding-left: 20px;
-}
-
-.info{
-    padding-bottom: 3px;
 }
 
 .apartados{
@@ -91,4 +84,3 @@ footer{
     margin-right: auto;
     opacity: 0.6;
 }
-
